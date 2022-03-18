@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791D745727E4FB4C009C3573 /* MyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D745627E4FB4C009C3573 /* MyListViewModel.swift */; };
+		791D745927E4FF8E009C3573 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D745827E4FF8E009C3573 /* MyListView.swift */; };
+		791D745B27E5021E009C3573 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D745A27E5021E009C3573 /* MyListCellView.swift */; };
 		798B997727E4E14900317F5E /* CoreDataCloneAzamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B997627E4E14900317F5E /* CoreDataCloneAzamApp.swift */; };
 		798B997927E4E14900317F5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B997827E4E14900317F5E /* ContentView.swift */; };
 		798B997B27E4E14A00317F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798B997A27E4E14A00317F5E /* Assets.xcassets */; };
 		798B997E27E4E14A00317F5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798B997D27E4E14A00317F5E /* Preview Assets.xcassets */; };
+		798B998727E4E22800317F5E /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 798B998527E4E22800317F5E /* RemindersModel.xcdatamodeld */; };
+		798B998A27E4E2E400317F5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B998927E4E2E400317F5E /* HomeView.swift */; };
+		798B998C27E4E3FE00317F5E /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B998B27E4E3FE00317F5E /* AddTaskView.swift */; };
+		798B998F27E4E62000317F5E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B998E27E4E62000317F5E /* Constants.swift */; };
+		798B999127E4E6B700317F5E /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B999027E4E6B700317F5E /* ColorPickerView.swift */; };
+		798B999427E4EA1500317F5E /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B999327E4EA1500317F5E /* Color + Extension.swift */; };
+		798B999727E4EFF800317F5E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B999627E4EFF700317F5E /* HomeViewModel.swift */; };
+		798B999A27E4F0A600317F5E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B999927E4F0A600317F5E /* CoreDataManager.swift */; };
+		798B999F27E4F1F800317F5E /* MyList + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798B999E27E4F1F800317F5E /* MyList + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791D745627E4FB4C009C3573 /* MyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewModel.swift; sourceTree = "<group>"; };
+		791D745827E4FF8E009C3573 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		791D745A27E5021E009C3573 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		798B997327E4E14900317F5E /* CoreDataCloneAzam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCloneAzam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798B997627E4E14900317F5E /* CoreDataCloneAzamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCloneAzamApp.swift; sourceTree = "<group>"; };
 		798B997827E4E14900317F5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		798B997A27E4E14A00317F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798B997D27E4E14A00317F5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		798B998627E4E22800317F5E /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
+		798B998927E4E2E400317F5E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		798B998B27E4E3FE00317F5E /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		798B998E27E4E62000317F5E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		798B999027E4E6B700317F5E /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		798B999327E4EA1500317F5E /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		798B999627E4EFF700317F5E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		798B999927E4F0A600317F5E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		798B999E27E4F1F800317F5E /* MyList + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,12 @@
 		798B997527E4E14900317F5E /* CoreDataCloneAzam */ = {
 			isa = PBXGroup;
 			children = (
+				798B999827E4F09D00317F5E /* Manager */,
+				798B999527E4EFEC00317F5E /* ViewModel */,
+				798B999227E4EA0800317F5E /* Extensions */,
+				798B998D27E4E60A00317F5E /* Utilities */,
+				798B998827E4E2DD00317F5E /* View */,
+				798B998427E4E21600317F5E /* Shared */,
 				798B997627E4E14900317F5E /* CoreDataCloneAzamApp.swift */,
 				798B997827E4E14900317F5E /* ContentView.swift */,
 				798B997A27E4E14A00317F5E /* Assets.xcassets */,
@@ -65,6 +95,60 @@
 				798B997D27E4E14A00317F5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		798B998427E4E21600317F5E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				798B998527E4E22800317F5E /* RemindersModel.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		798B998827E4E2DD00317F5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				798B998927E4E2E400317F5E /* HomeView.swift */,
+				798B998B27E4E3FE00317F5E /* AddTaskView.swift */,
+				798B999027E4E6B700317F5E /* ColorPickerView.swift */,
+				791D745827E4FF8E009C3573 /* MyListView.swift */,
+				791D745A27E5021E009C3573 /* MyListCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		798B998D27E4E60A00317F5E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				798B998E27E4E62000317F5E /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		798B999227E4EA0800317F5E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				798B999327E4EA1500317F5E /* Color + Extension.swift */,
+				798B999E27E4F1F800317F5E /* MyList + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		798B999527E4EFEC00317F5E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				798B999627E4EFF700317F5E /* HomeViewModel.swift */,
+				791D745627E4FB4C009C3573 /* MyListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		798B999827E4F09D00317F5E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				798B999927E4F0A600317F5E /* CoreDataManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791D745B27E5021E009C3573 /* MyListCellView.swift in Sources */,
 				798B997927E4E14900317F5E /* ContentView.swift in Sources */,
+				798B999727E4EFF800317F5E /* HomeViewModel.swift in Sources */,
+				798B998C27E4E3FE00317F5E /* AddTaskView.swift in Sources */,
+				798B998A27E4E2E400317F5E /* HomeView.swift in Sources */,
+				798B999F27E4F1F800317F5E /* MyList + Extension.swift in Sources */,
+				798B999127E4E6B700317F5E /* ColorPickerView.swift in Sources */,
+				791D745727E4FB4C009C3573 /* MyListViewModel.swift in Sources */,
 				798B997727E4E14900317F5E /* CoreDataCloneAzamApp.swift in Sources */,
+				798B998F27E4E62000317F5E /* Constants.swift in Sources */,
+				798B998727E4E22800317F5E /* RemindersModel.xcdatamodeld in Sources */,
+				798B999A27E4F0A600317F5E /* CoreDataManager.swift in Sources */,
+				798B999427E4EA1500317F5E /* Color + Extension.swift in Sources */,
+				791D745927E4FF8E009C3573 /* MyListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +435,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		798B998527E4E22800317F5E /* RemindersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				798B998627E4E22800317F5E /* RemindersModel.xcdatamodel */,
+			);
+			currentVersion = 798B998627E4E22800317F5E /* RemindersModel.xcdatamodel */;
+			path = RemindersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 798B996B27E4E14900317F5E /* Project object */;
 }
